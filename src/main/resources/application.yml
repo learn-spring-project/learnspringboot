@@ -1,5 +1,10 @@
 spring:
   application:
     name:  springbootDemo
+
+server:
   profiles:
     active: dev
+  port: 8080
+#  servlet:
+#    context-path: /boot
