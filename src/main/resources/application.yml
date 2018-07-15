@@ -1,10 +1,19 @@
 spring:
   application:
     name:  springbootDemo
-
+##设置字符编码
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
 server:
   profiles:
     active: dev
   port: 8080
 #  servlet:
 #    context-path: /boot
+
+
+
+
